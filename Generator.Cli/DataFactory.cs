@@ -8,7 +8,7 @@ public static class DataFactory
 
         var result = new WebTransaction()
         {
-            XCsTimestamp = now.ToUnixTimeMilliseconds(),
+            XCsTimestamp = now.ToUnixTimeSeconds(),
             Date = now.Date,
             Time = now.TimeOfDay,
             CsUsername = "Generated",

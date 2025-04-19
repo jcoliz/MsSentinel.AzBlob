@@ -323,7 +323,7 @@ namespace Generator.Cli
         /// </summary>
 
         [System.Text.Json.Serialization.JsonPropertyName("x-cs-timestamp")]
-        public int XCsTimestamp { get; set; }
+        public long XCsTimestamp { get; set; }
 
         /// <summary>
         /// x-cs-page-id.

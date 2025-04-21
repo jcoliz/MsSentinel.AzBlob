@@ -9,7 +9,7 @@ namespace Generator.Worker;
 
 public partial class Worker(BlobServiceClient blobServiceClient, IOptions<BlobStorageOptions> options, ILogger<Worker> logger) : BackgroundService
 {
-    private readonly TimeSpan _period = TimeSpan.FromMinutes(1);
+    private readonly TimeSpan _period = TimeSpan.FromMinutes(10);
     private readonly int _numLines = 10;
     private readonly Guid _session = Guid.NewGuid();
 

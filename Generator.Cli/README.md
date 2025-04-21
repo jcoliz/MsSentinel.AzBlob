@@ -5,5 +5,4 @@ desired blob storage.
 
 ## TODO
 
-* Turn into a worker
 * Make a container

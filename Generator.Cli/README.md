@@ -5,6 +5,5 @@ desired blob storage.
 
 ## TODO
 
-* Create fake data
-* Create blob files
-* Upload them to blob storage
+* Turn into a worker
+* Make a container

@@ -1,0 +1,13 @@
+#
+# Config template
+#
+# Copy this file to config.toml, and replace placeholders with values for your setup
+#
+
+# az storage account show-connection-string --name $env:STORNAME
+[ConnectionStrings]
+StorageAccount = "<Connection string to your storage account>"
+
+[BlobStorage]
+Container = "<Your blob container>"
+Folder = "<Your folder>"

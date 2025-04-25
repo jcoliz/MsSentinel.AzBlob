@@ -11,6 +11,14 @@ public record BlobStorageOptions
     public static readonly string Section = "BlobStorage";
 
     /// <summary>
+    /// Endpoint for blob storage
+    /// </summary>
+    /// <remarks>
+    /// Not required if a connection string is used
+    /// </remarks>
+    public Uri? Endpoint { get; init; } = null;
+
+    /// <summary>
     /// Blob container to store files
     /// </summary>
     public string Container { get; init; } = string.Empty;
